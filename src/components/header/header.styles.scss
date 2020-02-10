@@ -1,0 +1,35 @@
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+
+  .logo-container {
+    display: flex;
+    height: 100%;
+    width: 100px;
+    padding: 20px;
+    align-items: center;
+  }
+
+  .options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .option {
+      color: #000;
+      padding: 10px 15px;
+      text-decoration: none;
+      cursor: pointer;
+
+      &:hover {
+        font-size: 18px;
+        color: blue;
+      }
+    }
+  }
+}

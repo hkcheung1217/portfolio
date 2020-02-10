@@ -1,0 +1,21 @@
+.homepage {
+  margin: 0 7px;
+  background-image: linear-gradient(to bottom right, red, blue);
+  height: 76vh;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  color: rgb(0, 0, 0);
+
+  .title {
+    background-color: white transparent(0.7);
+  }
+
+  .logo {
+    width: 33vw;
+    min-height: 200px;
+    min-width: 350px;
+  }
+}

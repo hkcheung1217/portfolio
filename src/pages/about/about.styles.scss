@@ -1,0 +1,70 @@
+.about-page {
+  background-image: linear-gradient(to top left, lightblue, #fff);
+  margin: 0 7px;
+
+  padding: 0 7px;
+  display: flex;
+  text-align: left;
+  border-radius: 5px;
+
+  .left-side {
+    width: 65%;
+    margin: 15px 30px;
+    padding: 0 7px;
+    font-size: 1.5vw;
+    font-size: 2vh;
+
+    .about {
+      padding: 0 7px;
+    }
+
+    .about-header {
+      margin-bottom: 2%;
+    }
+
+    .skills {
+      box-sizing: border-box;
+      margin-top: 10%;
+
+      .skills-header {
+        margin-bottom: 2%;
+      }
+    }
+  }
+
+  .right-side {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .logo {
+      height: 200px;
+      width: 16vw;
+
+      &:first-child {
+        animation: spin 2s linear infinite;
+      }
+
+      &:nth-child(2) {
+        transition: transform 0.8s;
+
+        &:hover {
+          transform: rotateY(180deg);
+        }
+      }
+
+      &:nth-child(3) {
+      }
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  }
+}
