@@ -10,13 +10,13 @@ const Header = () => (
       <DropDown className="logo" />
     </div>
     <div className="options">
-      <Link className="option" to="/">
+      <Link className="option" to="/portfolio">
         Home
       </Link>
-      <Link className="option" to="/about">
+      <Link className="option" to="/portfolio/about">
         About
       </Link>
-      <Link className="option" to="/contact">
+      <Link className="option" to="/portfolio/contact">
         Contact
       </Link>
     </div>

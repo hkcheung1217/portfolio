@@ -1,11 +1,14 @@
 .contact {
   height: 76vh;
   padding: 0 7px;
-  background-image: linear-gradient(to right bottom, lightblue, orange);
+  background: linear-gradient(to right, #c06c84, #6c5b7b, #355c7d);
   margin: 0 7px;
   border-radius: 5px;
 
   .contact-container {
+    font-weight: 700;
+    font-style: italic;
+    color: #fff;
     font-size: 1.5vw;
     height: 100%;
     display: flex;

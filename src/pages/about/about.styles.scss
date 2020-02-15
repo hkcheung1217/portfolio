@@ -1,11 +1,18 @@
 .about-page {
-  background-image: linear-gradient(to top left, lightblue, #fff);
+  background: linear-gradient(to right, #c06c84, #6c5b7b, #355c7d);
+  color: #fff;
+  font-weight: 700;
   margin: 0 7px;
 
   padding: 0 7px;
   display: flex;
   text-align: left;
   border-radius: 5px;
+
+  h2 {
+    font-style: italic;
+    font-weight: 700;
+  }
 
   .left-side {
     width: 65%;

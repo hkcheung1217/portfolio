@@ -11,22 +11,22 @@ const AboutPage = () => (
     <div className="left-side">
       <div className="about">
         <h2 className="about-header">About Hoi</h2>
-        <p>Hi! My name is Hoi and I am a self-taught Software Developer.</p>
+        <p>Hi! My name is Hoi and I am a self-taught software developer.</p>
         <p>
-          I graduated with bachelor degree of applied mathematics at CSUN 2019
-          Spring.{" "}
+          I graduated with bachelor degree of applied mathematics at CSUN Spring
+          2019.
         </p>
         <p>
-          Since then, I have started learning programming and have fallen in
-          love with web development.{" "}
+          I always had interest in programming languages and have fallen in love
+          with web development.
         </p>
         <p>
-          Recently, I am really into learning React and Redux because of the new
-          way of writing html/css/javascript which made up by components.
+          I am really into learning React and Redux because it makes producing
+          with the holy trinity much faster and easier.
         </p>
         <p>
-          My greatest strength is that I have patience on learning new things by
-          spending time on doing my own research even if they are difficult.
+          My greatest strength is that I believe that I have a rather large
+          tolerance for patience on learning new and complex things.
         </p>
       </div>
       <div className="skills">

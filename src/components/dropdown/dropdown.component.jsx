@@ -19,7 +19,7 @@ const DropDown = props => {
   return (
     <Nav className="menu">
       <Dropdown className="dropdown" nav isOpen={dropdownOpen} toggle={toggle}>
-        <DropdownToggle nav caret>
+        <DropdownToggle className="logo" nav caret>
           <Logo />
         </DropdownToggle>
         <DropdownMenu className="dropdown-menu">
