@@ -13,8 +13,8 @@ const AboutPage = () => (
         <h2 className="about-header">About Hoi</h2>
         <p>Hi! My name is Hoi and I am a self-taught software developer.</p>
         <p>
-          I graduated with bachelor degree of applied mathematics at CSUN Spring
-          2019.
+          I graduated with bachelor's degree of applied mathematics at CSUN
+          Spring 2019.
         </p>
         <p>
           I always had interest in programming languages and have fallen in love

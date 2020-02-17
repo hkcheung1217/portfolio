@@ -34,6 +34,11 @@ const DropDown = props => {
             </Link>
           </DropdownItem>
           <DropdownItem className="dropdown-item">
+            <Link to="/portfolio/project" className="item">
+              Project
+            </Link>
+          </DropdownItem>
+          <DropdownItem className="dropdown-item">
             <Link to="/portfolio/contact" className="item">
               Contact
             </Link>

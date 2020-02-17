@@ -1,9 +1,10 @@
 .contact {
   height: 76vh;
   padding: 0 7px;
-  background: linear-gradient(to right, #c06c84, #6c5b7b, #355c7d);
+  background: linear-gradient(to right, #355c7d, #6c5b7b, #6c5b7b, #355c7d);
   margin: 0 7px;
-  border-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 
   .contact-container {
     font-weight: 700;

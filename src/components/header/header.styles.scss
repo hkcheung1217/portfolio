@@ -1,12 +1,10 @@
 .header {
   font-weight: 700;
-
   height: 70px;
-  width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 25px;
-  background: linear-gradient(to right, #c06c84, #6c5b7b, #355c7d);
+  margin: 0 7px;
+  background: linear-gradient(to right, #355c7d, #6c5b7b, #6c5b7b, #355c7d);
 
   .logo-container {
     display: flex;
@@ -14,6 +12,10 @@
     width: 100px;
     padding: 20px;
     align-items: center;
+
+    .logo {
+      color: white;
+    }
   }
 
   .options {
@@ -30,8 +32,10 @@
       cursor: pointer;
 
       &:hover {
-        font-size: 18px;
-        color: blue;
+        color: #000;
+        background-color: #fff;
+        border-radius: 3px;
+        padding: 6px 9px;
       }
     }
   }

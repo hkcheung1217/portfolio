@@ -5,7 +5,7 @@ import "./home.styles.scss";
 const HomePage = () => (
   <div className="homepage">
     <div className="title">
-      <h1>Welcome to my portfolio!</h1>
+      <h1>Welcome to my portfolio</h1>
       <h1>Hoi Cheung</h1>
     </div>
     <div className="logo">

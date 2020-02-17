@@ -5,6 +5,8 @@ import Header from "./components/header/header.component";
 import HomePage from "./pages/home/home.component";
 import AboutPage from "./pages/about/about.component";
 import ContactPage from "./pages/contact/contact.component";
+import ProjectPage from "./pages/project/project.component";
+
 import SocialLink from "./components/social-link/social-link.component";
 
 import "./App.css";
@@ -16,6 +18,7 @@ function App() {
       <Switch>
         <Route exact path="/portfolio/" component={HomePage} />
         <Route exact path="/portfolio/about" component={AboutPage} />
+        <Route exact path="/portfolio/project" component={ProjectPage} />
         <Route exact path="/portfolio/contact" component={ContactPage} />
       </Switch>
       <SocialLink />

@@ -1,9 +1,11 @@
 .menu {
   .dropdown {
+    background-color: #fff;
+    opacity: 0.9;
+    border-radius: 5px;
     :hover {
-      background-color: #fff;
-      opacity: 0.9;
       border-radius: 5px;
+      opacity: none;
     }
   }
   .dropdown-menu {

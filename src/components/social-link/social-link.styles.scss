@@ -1,7 +1,14 @@
 .social-link {
-  margin-top: 20px;
+  margin-top: 5vh;
   height: 85px;
-  .social-icon {
-    margin: 0 5px;
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .social-icon {
+      margin: 0 5px;
+    }
   }
 }
