@@ -26,7 +26,7 @@ class Email extends React.Component {
 
     const { name, email, message } = this.state;
 
-    await axios.post("http://localhost:8000/api/email", {
+    await axios.post("https://node-email-application.herokuapp.com/api/email", {
       name,
       email,
       message
