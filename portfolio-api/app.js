@@ -1,15 +1,15 @@
 const express = require("express");
-const bodyParser = require("body-parser");
-const cors = require("cors");
 const sendGrid = require("@sendgrid/mail");
 const app = express();
 
-const port = 8000;
+const port = process.env.PORT || 4000;
 
-app.use(bodyParser.json());
+//body-parser
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
-app.use(cors());
 
+//CORS
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader(
@@ -18,10 +18,6 @@ app.use((req, res, next) => {
   );
   res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
   next();
-});
-
-app.get("/api", (req, res, next) => {
-  res.send("API Status: Running");
 });
 
 app.post("/api/email", (req, res, next) => {
