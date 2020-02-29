@@ -20,6 +20,7 @@ app.use((req, res, next) => {
   next();
 });
 
+//Should register a new key and replace my key below
 app.post("/api/email", (req, res, next) => {
   sendGrid.setApiKey(
     "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"
